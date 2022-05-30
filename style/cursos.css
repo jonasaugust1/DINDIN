@@ -1,0 +1,94 @@
+main{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h1, h3{
+    color: #FF4081;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+section{
+    margin-top: 5%;
+}
+
+section .card{
+    display: flex;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+section .card:not(:first-child):not(:last-child) {
+    border-top: 5px solid #C4C4C4;
+    border-bottom: 5px solid #C4C4C4;
+}
+
+section .card img{
+    margin-right: 4%;
+}
+
+section .card .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+}
+
+section .card .information p{
+    margin-top: 5%;
+}
+
+section .card .information button{
+    background-color: #419488;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 2%;
+    width: 30%;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 480px){
+    main{
+        margin: 10% 0 10% 0;
+    }
+
+    section{
+        margin-top: 5%;
+    }
+
+    section .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8%;
+    }
+
+    section .card img{
+        width: 70%;
+        margin-bottom: 8%;
+    }
+
+    section .card .information{
+        align-items: center;
+        width: 80%;
+    }
+
+    h1, h3 , p{
+        text-align: center;
+    }
+
+    section .card .information button{
+        padding: 4%;
+        width: 50%;
+        margin-top: 10%;
+    }
+}
