@@ -81,6 +81,10 @@ footer .button-container button{
         margin-top: 10%;
     }
 
+    footer a img{
+        width: 30%;
+    }
+
     footer nav li{
         margin-bottom: 1px;
     }
