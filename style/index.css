@@ -67,7 +67,7 @@
     text-align: center;
 }
 
-#section2 .card button{
+#section2 .card button, #section2 .card a{
     width: 80%;
     background-color: #FF4081;
     color: #FDFDFD;
@@ -75,6 +75,10 @@
     border: none;
     padding: 8px;
     border-radius: 20px;
+}
+
+a{
+    text-align: center;
 }
 
 /* SECTION3 */

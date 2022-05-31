@@ -22,8 +22,8 @@ header{
     padding: 1%;
 }
 
-header img{
-    width: 10%;
+header div a img{
+    width: 30%;
 }
 
 header nav{
@@ -42,8 +42,12 @@ footer{
     padding: 2%;
 }
 
-footer img{
-    width: 15%;
+footer div{
+    width: 30%;
+}
+
+footer a img{
+    width: 50%;
 }
 
 footer nav li{
@@ -73,16 +77,12 @@ footer .button-container button{
         font-size: 10%;
     }
 
-    header a img{
-        width: 30%;
-    }
-
     footer{
         margin-top: 10%;
     }
 
-    footer a img{
-        width: 30%;
+    footer div a img{
+        width: 70%;
     }
 
     footer nav li{

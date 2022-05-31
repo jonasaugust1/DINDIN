@@ -1,0 +1,115 @@
+h1, h3{
+    color: #FF4081;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#principal div{
+    width: 27%;
+    margin-right: 10%;
+}
+
+#principal div h1{
+    font-size: 3em;
+    margin-bottom: 8%;
+}
+
+#principal div p{
+    color: #555555;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 8%;
+}
+
+#principal img{
+    width: 30%;
+}
+
+.video{
+    margin-top: 5%;
+    background-color: #F6F6F6;
+}
+
+.video .video-container{
+    display: flex;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+.video .video-container:not(:first-child):not(:last-child) {
+    border-top: 5px solid #C4C4C4;
+    border-bottom: 5px solid #C4C4C4;
+}
+
+.video .video-container iframe{
+    width: 40%;
+    margin-right: 5%;
+}
+
+.video .video-container .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+}
+
+.video .video-container .description p{
+    margin-top: 5%;
+    width: 80%;
+}
+
+@media only screen and (max-width: 480px){
+
+    h3 , p{
+        text-align: center;
+    }
+
+    main{
+        margin: 10% 0 10% 0;
+    }
+
+    #principal div{
+        width: 50%;
+    }
+
+    #principal div h1{
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    #principal div p{
+        font-size: 0.8em;
+        text-align: left;
+    }
+
+    .video{
+        margin-top: 5%;
+    }
+
+    .video .video-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8%;
+    }
+
+    .video .video-container iframe{
+        width: 100%;
+        margin-bottom: 8%;
+    }
+
+    .video .video-container .description{
+        align-items: center;
+        width: 80%;
+    }
+}
